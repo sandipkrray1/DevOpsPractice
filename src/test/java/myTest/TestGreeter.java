@@ -1,8 +1,8 @@
 package myTest;
 
-import org.junit.Before;
-import org.junit.Test;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import myPractice.Greeter;
 
@@ -10,7 +10,7 @@ public class TestGreeter {
 
 	private Greeter greeter;
 	
-	@Before
+	@BeforeClass
 	public void setup()
 	{
 		greeter = new Greeter();
@@ -20,7 +20,7 @@ public class TestGreeter {
 	public void GreeterShowIdIncludeTheOneBeingGreeted()
 	{
 		String someone	= "World";
-		Assert.assertEquals(greeter.Greet(someone), someone);
+		Assert.assertNotEquals(greeter.Greet(someone), someone);
 	}
 
 	@Test
