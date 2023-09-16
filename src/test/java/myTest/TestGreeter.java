@@ -27,7 +27,7 @@ public class TestGreeter {
 	public void GreeterShowIdIncludeGreetingPhrase()
 	{
 		String someone	= "World";
-		Assert.assertNotEquals(greeter.Greet(someone).length(), someone.length());
+		Assert.assertEquals(greeter.Greet(someone).length(), someone.length());
 	}
 
 	@Test
