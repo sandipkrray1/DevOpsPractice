@@ -19,14 +19,14 @@ public class TestGreeter {
 	@Test
 	public void GreeterShowIdIncludeTheOneBeingGreeted()
 	{
-		String someone	= "World";
+		String someone	= "World Hello";
 		Assert.assertNotEquals(greeter.Greet(someone), someone);
 	}
 
 	@Test
 	public void GreeterShowIdIncludeGreetingPhrase()
 	{
-		String someone	= "World";
+		String someone	= "World Hello";
 		Assert.assertNotEquals(greeter.Greet(someone).length(), someone.length());
 	}
 
