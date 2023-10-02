@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-16T21:18:23Z" name="myTest.TestGreeter" finished-at="2023-09-16T21:18:24Z" duration-ms="52">
+  <suite started-at="2023-09-25T19:58:02Z" name="myTest.TestGreeter" finished-at="2023-09-25T19:58:02Z" duration-ms="29">
     <groups>
     </groups>
-    <test started-at="2023-09-16T21:18:23Z" name="Command line test" finished-at="2023-09-16T21:18:24Z" duration-ms="52">
+    <test started-at="2023-09-25T19:58:02Z" name="Command line test" finished-at="2023-09-25T19:58:02Z" duration-ms="29">
       <class name="myTest.TestGreeter">
-        <test-method is-config="true" signature="setup()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-17T02:48:23Z" name="setup" finished-at="2023-09-17T02:48:24Z" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-26T01:28:02Z" name="setup" finished-at="2023-09-26T01:28:02Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="GreeterShowIdIncludeGreetingMessage()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-17T02:48:24Z" name="GreeterShowIdIncludeGreetingMessage" finished-at="2023-09-17T02:48:24Z" duration-ms="2" status="PASS">
+        <test-method signature="GreeterShowIdIncludeGreetingMessage()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-26T01:28:02Z" name="GreeterShowIdIncludeGreetingMessage" finished-at="2023-09-26T01:28:02Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GreeterShowIdIncludeGreetingMessage -->
-        <test-method signature="GreeterShowIdIncludeGreetingPhrase()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-17T02:48:24Z" name="GreeterShowIdIncludeGreetingPhrase" finished-at="2023-09-17T02:48:24Z" duration-ms="1" status="PASS">
+        <test-method signature="GreeterShowIdIncludeGreetingPhrase()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-26T01:28:02Z" name="GreeterShowIdIncludeGreetingPhrase" finished-at="2023-09-26T01:28:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GreeterShowIdIncludeGreetingPhrase -->
-        <test-method signature="GreeterShowIdIncludeTheOneBeingGreeted()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-17T02:48:24Z" name="GreeterShowIdIncludeTheOneBeingGreeted" finished-at="2023-09-17T02:48:24Z" duration-ms="0" status="PASS">
+        <test-method signature="GreeterShowIdIncludeTheOneBeingGreeted()[pri:0, instance:myTest.TestGreeter@cd3fee8]" started-at="2023-09-26T01:28:02Z" name="GreeterShowIdIncludeTheOneBeingGreeted" finished-at="2023-09-26T01:28:02Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GreeterShowIdIncludeTheOneBeingGreeted -->
